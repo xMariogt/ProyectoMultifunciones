@@ -34,6 +34,11 @@ while(opcion != 0):
         n = int(input("Ingrese el valor n: "))
         r = int(input("Ingrese el valor r: "))
         resultado = otrasFunciones.Permutacion(n,r)
+    elif(opcion == 7): #Funcion de Combinacion
+        n = int(input("Ingrese el valor n: "))
+        r = int(input("Ingrese el valor r: "))
+        resultado = otrasFunciones.Combinacion(n,r)
+
 
 
 
