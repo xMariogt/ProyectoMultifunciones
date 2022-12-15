@@ -1,14 +1,22 @@
 def sumar(numero1, numero2):
-    return numero1+numero2
+    resultado = numero1+numero2
+    print(f'El resultado es: {resultado}')
+    return resultado
 
 def restar(numero1, numero2):
-    return numero1-numero2
+    resultado = numero1-numero2
+    print(f'El resultado es: {resultado}')
+    return resultado
 
 def multiplicar(numero1, numero2):
-    return numero1*numero2
+    resultado = numero1*numero2
+    print(f'El resultado es: {resultado}')
+    return resultado
 
 def dividir(numero1, numero2):
-    return numero1/numero2
+    resultado = numero1/numero2
+    print(f'El resultado es: {resultado}')
+    return resultado
 
 def factorial(numero):
     if numero > 1:
